@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 50 500 500" aria-hidden="true">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0b4"/><stop offset=".45" stop-color="#bd862e"/><stop offset="1" stop-color="#f9d97b"/></linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path d="M118 385A206 206 0 0 1 277 82A206 206 0 0 1 465 235" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M460 322A206 206 0 0 1 277 514A206 206 0 0 1 103 411" fill="none" stroke="#fff6dc" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <path d="M105 330A184 184 0 0 1 199 122M370 480A184 184 0 0 1 463 294" fill="none" stroke="#bd862e" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="280" cy="298" rx="232" ry="121" fill="none" stroke="#f6d987" stroke-width="2" opacity=".58" transform="rotate(-38 280 298)"/><ellipse cx="280" cy="298" rx="192" ry="102" fill="none" stroke="#fff8e6" stroke-width="1" opacity=".2" transform="rotate(43 280 298)"/>
+  <g fill="url(#gold)" filter="url(#soft)"><circle cx="112" cy="383" r="9"/><circle cx="464" cy="235" r="9"/><circle cx="103" cy="411" r="6"/></g>
+  <path d="M181 134l-23 19 23 19M376 134l23 19-23 19M279 124l-14 58" fill="none" stroke="#f8df97" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M178 422V174h104c74 0 117 35 117 92 0 58-43 93-117 93h-45v63h-59zm59-112h44c38 0 59-16 59-44 0-27-21-43-59-43h-44v87z" fill="url(#gold)"/><path d="M294 422V174h75c90 0 143 48 143 124s-53 124-143 124h-75zm59-52h15c53 0 84-27 84-72s-31-72-84-72h-15v144z" fill="#fff9e8"/>
+  <path d="M151 483h258" stroke="url(#gold)" stroke-width="4" stroke-linecap="round"/>
+</svg>
